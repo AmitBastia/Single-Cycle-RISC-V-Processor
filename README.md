@@ -24,17 +24,9 @@ The RISC-V contains the four essential blocks,
 
 * Program Counter
 * Instruction Memory
-<details>
-<summary><b>Program Counter</b></summary>
-<p>The program counter holds the memory address of the current instruction being executed.</p>
-</details>
-
-<details>
-<summary><b>Program Counter</b></summary>
-<p>View the source code here: <a href="./rtl/ProgramCounter.v">ProgramCounter.v</a></p>
-</details>
 * Register File
 * Data Memory
+  ___
 This four blocks are the key componenets of the processor. But, to bluid the whole architecture it is not enough, you need the connecting components for the above which plays a greater role in selecting the data, to ensure data is being read or written to. We need,
 
 ‣ Multiplexers - 3 are required
