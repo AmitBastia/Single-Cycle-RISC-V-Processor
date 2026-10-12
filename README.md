@@ -22,10 +22,10 @@ The instruction I-type, B-type, S-type snd J-type have been proposed. This repos
 ## What are the main blocks in this Single cycle processor?
 The RISC-V contains the four essential blocks,
 
-‣ Program Counter
-‣ Instruction Memory
-‣ Register File
-‣ Data Memory
+* Program Counter
+* Instruction Memory
+* Register File
+* Data Memory
 This four blocks are the key componenets of the processor. But, to bluid the whole architecture it is not enough, you need the connecting components for the above which plays a greater role in selecting the data, to ensure data is being read or written to. We need,
 
 ‣ Multiplexers - 3 are required
