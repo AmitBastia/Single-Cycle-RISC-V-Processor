@@ -30,8 +30,8 @@ The RISC-V contains the four essential blocks,
 </details>
 
 <details>
-<summary><b>Instruction Memory</b></summary>
-<p>Stores the instructions of the program and feeds them to the processor.</p>
+<summary><b>Program Counter</b></summary>
+<p>View the source code here: <a href="./rtl/ProgramCounter.v">ProgramCounter.v</a></p>
 </details>
 * Register File
 * Data Memory
