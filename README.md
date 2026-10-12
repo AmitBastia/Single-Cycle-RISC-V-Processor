@@ -8,6 +8,8 @@ This is an industry level tool, which will produce the gate level design, schema
 The instruction I-type, B-type, S-type snd J-type have been proposed. This repository will picture out the main idea on various main block of RISC-V along with the excecution of each module in Vivado.
 
 ## Architecture Design
+![image_alt](https://github.com/AmitBastia/Single-Cycle-RISC-V-Processor/blob/main/RISC-V-Architecture.png)
+
 
 ## What are the main blocks in this Single cycle processor?
 The RISC-V contains the four essential blocks,
