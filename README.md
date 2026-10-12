@@ -11,6 +11,14 @@ The instruction I-type, B-type, S-type snd J-type have been proposed. This repos
 ![image_alt](https://github.com/AmitBastia/Single-Cycle-RISC-V-Processor/blob/main/RISC-V-Architecture.png)
 
 
+## Instruction Set
+![image_alt](https://github.com/AmitBastia/Single-Cycle-RISC-V-Processor/blob/main/RISC-V-Inst.%20Set.png)
+
+
+## ALU Table
+![image_alt](https://github.com/AmitBastia/Single-Cycle-RISC-V-Processor/blob/main/RISC-V-ALU_Table.png)
+
+
 ## What are the main blocks in this Single cycle processor?
 The RISC-V contains the four essential blocks,
 
