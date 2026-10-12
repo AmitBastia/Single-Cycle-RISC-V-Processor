@@ -25,30 +25,36 @@ The RISC-V contains the four essential blocks,
 * Program Counter
 * Instruction Memory
 * Register File
-* Data Memory
-  ___
+* Data Memory<br>
+  
 This four blocks are the key componenets of the processor. But, to bluid the whole architecture it is not enough, you need the connecting components for the above which plays a greater role in selecting the data, to ensure data is being read or written to. We need,
 
-‣ Multiplexers - 3 are required
-Multiplexer for PCSrc
-Multiplexer for ALUSrc
-Multiplexer for ResultSrc
+### Multiplexers - 3 are required
+* Multiplexer for PCSrc
+* Multiplexer for ALUSrc
+* Multiplexer for ResultSrc<br>
+
 The count is 3, for selecting their desired selection line which are PCSrc, ALUSrc, ResultSrc.
 
-‣ Adders - 2 are required
-Adder for PCPlus4
-Adder for PCTarget
+### Adders - 2 are required
+* Adder for PCPlus4
+* Adder for PCTarget<br>
+
 The adder will increment the value. For PCPlus4 the previous input is added with four as an output to give the next input for program counter. And, for PCTarget the addition is between the ImmExt (output of Extend File) and PC input.
 
-‣ Arithmetic logic unit
-‣ ALU Control unit
+### ‣  Arithmetic logic unit
+### ‣  ALU Control unit
+
 ALU Control unit, comprises of the,
 
-Main Decoder
-ALU Decoder
-‣ Extend File
-‣ Datapath
-All this combined together with the appropriate logic flow will give the architecture of MIPS.
+* Main Decoder
+* ALU Decoder
+  
+### ‣ Extend File
+### ‣ Datapath
+
+#### All this combined together with the appropriate logic flow will give the architecture of MIPS.
+
 
 ## What datapath does the load word, store word, and Branch equal word follow?
 ### Load Word
@@ -67,16 +73,18 @@ Step 5: The ALUResult is fed into the Data memory and where the Result is added 
 ### Store word
 Step 1: The whole structure of store word is almost same like the load word. The changes to be made are
 
-Two single source register is used.
-ImmSrc from from extend file and MemWrite from the Data memory as a control signal is supplied to the ALU Controller.
-Second Register is fed into the A2 source operand.
-Branch Equal
+* Two single source register is used.
+* ImmSrc from from extend file and MemWrite from the Data memory as a control signal is supplied to the ALU Controller.
+* Second Register is fed into the A2 source operand.
+
+### Branch Equal
 Follow the same data path till store word. additionals are
 
-Perform substraction operation on SrcA and SrcB, if the result gives us zero then add zero flag to show the results are obtained for beq instructions.
-ResultSrc and RD is disabled.
-Calcualte the Target Address PCTarget = PC input + ImmExt the PCTarget is fed into the Program Counter by using multipler.
-What does the repository contain?
+* Perform substraction operation on SrcA and SrcB, if the result gives us zero then add zero flag to show the results are obtained for beq instructions.
+* ResultSrc and RD is disabled.
+* Calcualte the Target Address PCTarget = PC input + ImmExt the PCTarget is fed into the Program Counter by using multipler.
+
+## What does the repository contain?
 You can expect four things which will be given for every modules;
 
 ### Verilog Code
