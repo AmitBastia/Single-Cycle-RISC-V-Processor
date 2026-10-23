@@ -5,7 +5,7 @@ Xilinx Vivado version 2024.1
 
 This is an industry level tool, which will produce the gate level design, schematic design and it can also implement the code in an FPGA kit by using bitstream generation.
 ## What to expect
-The instruction I-type, B-type, S-type snd J-type have been proposed. This repository will picture out the main idea on various main block of RISC-V along with the excecution of each module in Vivado.
+The instruction I-type, B-type, S-type and J-type have been proposed. This repository will picture out the main idea on various main block of RISC-V along with the excecution of each module in Vivado.
 
 ## Architecture Design
 ![image_alt](https://github.com/AmitBastia/Single-Cycle-RISC-V-Processor/blob/main/RISC-V-Architecture.png)
@@ -27,7 +27,7 @@ The RISC-V contains the four essential blocks,
 * Register File
 * Data Memory<br>
   
-This four blocks are the key componenets of the processor. But, to bluid the whole architecture it is not enough, you need the connecting components for the above which plays a greater role in selecting the data, to ensure data is being read or written to. We need,
+This four blocks are the key components of the processor. But, to bluid the whole architecture it is not enough, you need the connecting components for the above which plays a greater role in selecting the data, to ensure data is being read or written to. We need,
 
 ### Multiplexers - 3 are required
 * Multiplexer for PCSrc
